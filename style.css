@@ -24,47 +24,10 @@
     src: url("fonts/Rubik-Bold.ttf") format("truetype");
 }
 
-/* body {
-  background-color: #2A132A;
-} */
-
-.parallax img {
-  position: absolute;
-  width: 100%;
-}
-
-.question {
-  display: flex;
-  justify-content: center;
-  padding-top: 40vh;
-}
-
-.question h1 {
-  color: white;
-  font-family: Rubik;
-}
-
-
-
-
-
-body{
-  -webkit-perspective: 500;
-  -webkit-perspective-origin: 0 0;
-  overflow-x: hidden;
-}
-
-.over1 {
-  position: absolute;
-  -webkit-transform: translateZ(100px);
-}
-
-.over2 {
-  position: absolute;
-  -webkit-transform: translateZ(200px);
-}
-
-.over3 {
-  position: absolute;
-  -webkit-transform: translateZ(300px);
+body {
+  background-color: black;
+  background-image: url("images/BG.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  position: fixed;
 }
