@@ -72,6 +72,7 @@ main {
   position: absolute;
   margin-left: 10vw;
   margin-top: 5vw;
+  z-index: -3;
 }
 
 .title {
@@ -262,14 +263,16 @@ main {
   perspective-origin: 0%;
   overflow-y: scroll;
   overflow-x: hidden;
+
+  background-color: blue;
+
 }
 
-img {
+.parallax__layer img {
   position: absolute;
   left: 0;
   width: 1680px;
 }
-
 
 .titlewrapper {
   margin-top: -180vh;
@@ -307,19 +310,23 @@ img {
 
 .parallax__cover{
   background-image: url("images/BG.png");
-  /* background-repeat: no-repeat; */
-  background-size: 100vw 100vh;
-  /* background: #2D112B; */
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: block;
   position: absolute;
-  top: 70%;
+  top: 30vw;
   left: 0;
   right: 0;
-  height: 2000px;
+  height: 35vh;
   z-index: 2;
 
-  margin-top: 69vh;
+  margin-top: 40vh;
 
-  transform-origin: 0;
-  transform: translateZ(-2px) scale(1.5);
+  /* transform-origin: 0;
+  transform: translateZ(-2px) scale(1); */
+}
+
+.police {
+  position: relative;
+  width: 10vw;
 }
