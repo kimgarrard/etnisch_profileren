@@ -59,20 +59,27 @@
     src: url("fonts/Rubik-Bold.ttf") format("truetype");
 }
 
-body {
-  background-color: white;
+main {
   overflow-x: hidden;
 }
 
 
-
-
 .yellowcircle {
-  width: 10em;
-  height: 10em;
+  width: 32em;
+  height: 32em;
   border-radius: 100%;
-  background-color: #FFDA00;
+  background-color: #FFF33D;
   position: absolute;
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.title {
+  margin-left: 20vw;
+  top: 10vw;
+  font-family: RubikBold;
+  letter-spacing: 3px;
+  position: relative;
 }
 
 .glitch {
@@ -80,7 +87,6 @@ body {
   font-size: 3em;
   position: relative;
   margin: 0 auto;
-  font-family: RubikBold;
 }
 
 @keyframes noise-anim {
@@ -244,14 +250,12 @@ body {
   margin-top: 8em;
 }
 
-
-
 /* layout */
 .wrapper {
   position: relative;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: 100vh;
   width: 100vw;
   perspective: 8px;
@@ -267,45 +271,43 @@ img {
 }
 
 
-
-.parallax__layer__0 img {
-  /* margin-top: 23em; */
-
+.titlewrapper {
+  margin-top: -180vh;
   transform-origin: 0;
-  transform: translateZ(-17px) scale(2.33);
+  transform: translateZ(-30px) scale(4.8);
 }
 
 .parallax__layer__1 img {
   bottom: 0;
-
+  z-index: -1;
   transform-origin: 0;
   transform: translateZ(-9.5px) scale(2.2);
 }
 
 .parallax__layer__2 img {
   bottom: 0;
-
+  z-index: -1;
   transform-origin: 0;
   transform: translateZ(-7px) scale(1.88);
 }
 
 .parallax__layer__3 img {
   bottom: 1em;
-
+  z-index: -1;
   transform-origin: 0;
   transform: translateZ(-4.5px) scale(1.57);
 }
 
 .parallax__layer__4 img {
   bottom: 0;
-
+  z-index: 3;
   transform-origin: 0;
   transform: translateZ(-2px) scale(1.25);
 }
 
 .parallax__cover{
   background-image: url("images/BG.png");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: 100vw 100vh;
   /* background: #2D112B; */
   display: block;
