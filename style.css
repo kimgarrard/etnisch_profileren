@@ -391,7 +391,12 @@ article {
 /* INTRO */
 
 .intro {
-  padding-top: 40vh;
+  padding-top: 20vh;
+}
+
+.intro img {
+  margin-top: 5vh;
+  width: 30vw;
 }
 
 
@@ -463,4 +468,33 @@ article {
 
 .indicator2 {
   margin-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+/* GRAPH 3 */
+
+.graph3 {
+  background-color: #191919;
+  /* height: auto; */
+}
+
+.graph3 section {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin-top: 10vh;
+}
+
+.indicatoren3 {
+  text-align: left;
+  background-color: rgba(0,0,0,0.3);
+  padding: 1em;
+  height: auto;
 }
