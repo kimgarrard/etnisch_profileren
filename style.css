@@ -32,6 +32,10 @@ body {
   position: fixed; */
 }
 
+.overflowx {
+  overflow-x: hidden;
+}
+
 .BG {
   position: fixed;
   width: 100vw;
@@ -385,13 +389,30 @@ article {
   margin-top: 0.4em;
 }
 
+button {
+  background-color: #FFF33D;
+  color: black;
+  padding: 1em;
+  border: none;
+  border-radius: 0.2em;
+  font-family: "RobotoMedium";
+  margin: 1em;
+  font-size: 1em;
+}
+
 
 
 
 /* INTRO */
 
 .intro {
-  padding-top: 20vh;
+  padding-top: 15vh;
+  width: 200vw;
+  display: flex;
+}
+
+.intro section {
+  width: 100vw;
 }
 
 .intro img {

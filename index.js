@@ -2,7 +2,7 @@
 /*eslint-env browser*/
 /*eslint 'no-console':0*/
 
-window.onscroll = function(){
-document.body.style.webkitPerspectiveOrigin =
-window.scrollX + "px " + window.scrollY + "px";
-}
+// window.onscroll = function(){
+// document.body.style.webkitPerspectiveOrigin =
+// window.scrollX + "px " + window.scrollY + "px";
+// }
