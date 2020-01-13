@@ -73,9 +73,9 @@ main {
 
 .yellowcircle {
   width: 32em;
-  height: 32em;
+  /* height: 32em;
   border-radius: 100%;
-  background-color: #FFF33D;
+  background-color: #FFF33D; */
   position: absolute;
   margin-left: 10vw;
   margin-top: 5vw;
