@@ -36,6 +36,10 @@ body {
   overflow-x: hidden;
 }
 
+.overflowhidden {
+  overflow: hidden;
+}
+
 .BG {
   position: fixed;
   width: 100vw;
@@ -419,6 +423,23 @@ button {
   margin-top: 5vh;
   width: 30vw;
 }
+
+.research {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -5vw;
+  padding-top: 15vh;
+}
+
+.vwidd {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  margin-top: -5vw;
+  padding-top: 15vh;
+}
+
+
 
 
 /* GRAPH 1 */
