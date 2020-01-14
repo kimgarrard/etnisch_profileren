@@ -42,9 +42,13 @@ body {
 
 .BG {
   position: fixed;
+  background-image: url("images/BG.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  position: fixed;
   width: 100vw;
   height: 100vh;
-  z-index: -5;
+  z-index: -10;
 }
 
 
@@ -485,7 +489,8 @@ button:hover {
 /* GRAPH 1 */
 
 .graph1 {
-  background-color: #191919;
+  /* background-color: #191919; */
+  background-image: -webkit-linear-gradient(97deg, #191919 85%, rgba(0, 0, 0, 0) 0%);
   height: auto;
 }
 
@@ -563,8 +568,7 @@ button:hover {
 /* GRAPH 3 */
 
 .graph3 {
-  background-color: #191919;
-  /* height: auto; */
+  background-image: -webkit-linear-gradient(97deg, #191919 80%, rgba(0, 0, 0, 0) 0%);
 }
 
 .graph3 section {
@@ -579,4 +583,54 @@ button:hover {
   background-color: rgba(0,0,0,0.3);
   padding: 1em;
   height: auto;
+}
+
+
+
+
+
+
+
+@media(min-width: 20em) and (max-width: 47em) {
+  .titlewrapper {
+    margin-top: -150vh;
+  }
+
+  .title {
+    margin-left: 7vw;
+  }
+
+  .glitch {
+    font-size: 2.5em;
+  }
+
+  .yellowcircle {
+    margin-top: 10vw;
+    width: 28em;
+  }
+
+  .parallax__layer img {
+    bottom: -10vh;
+  }
+
+
+  .research {
+    padding-top: 0vh;
+    margin-top: -10vh;
+  }
+
+  .intro img {
+    width: 85vw;
+  }
+
+  section {
+    display: block !important;
+    align-items: center;
+  }
+
+  .description1 {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+  }
 }
