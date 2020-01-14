@@ -379,6 +379,9 @@ article p {
   color: white;
   font-family: "RobotoRegular";
   margin-top: 1em;
+  /* width: 40vw;
+  margin-left: 30vw;
+  margin-bottom: 5vh; */
 }
 
 article {
@@ -437,7 +440,13 @@ button:hover {
   width: 100vw;
   height: 100vh;
   margin-top: -5vw;
-  padding-top: 15vh;
+  padding-top: 10vh;
+}
+
+.research p {
+  width: 40vw;
+  margin-left: 30vw;
+  margin-bottom: 5vh;
 }
 
 .vwidd {
@@ -643,6 +652,24 @@ button:hover {
   }
 
   .indicatoren1 {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: black;
+    padding: 0.5em;
+    margin-top: 5vh;
+  }
+
+  .graph2 section {
+    height: auto;
+  }
+
+  .graph2 img {
+    width: 90vw;
+    margin-bottom: 5vh;
+  }
+
+  .indicatoren2 {
     text-align: left;
     width: 90vw;
     margin-left: 5vw;
