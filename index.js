@@ -7,7 +7,7 @@
 // window.scrollX + "px " + window.scrollY + "px";
 // }
 
-
+let button1 = document.querySelector(".button1");
 let button2 = document.querySelector(".button2");
 let buttonback = document.querySelector(".buttonback");
 let body = document.querySelector("body");
@@ -26,4 +26,14 @@ buttonback.onclick = function() {
   let research = document.querySelector(".research");
   research.scrollIntoView({behavior: "smooth"});
   body.classList.add("overflowx");
+}
+
+button1.onclick = function() {
+  let graph1 = document.querySelector(".graph1");
+  graph1.scrollIntoView({behavior: "smooth"});
+}
+
+// https://stackoverflow.com/questions/3664381/force-page-scroll-position-to-top-at-page-refresh-in-html
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
 }
