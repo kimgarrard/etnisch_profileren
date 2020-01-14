@@ -449,7 +449,14 @@ button:hover {
   padding-top: 15vh;
 }
 
+.vwidd img {
+  width: 95vw;
+  margin-top: -1vh;
+}
+
 .buttonback {
+  background-color: black;
+  color: white;
   position: absolute;
   left: 102vw;
   margin: 0;
@@ -592,6 +599,7 @@ button:hover {
 
 
 @media(min-width: 20em) and (max-width: 47em) {
+
   .titlewrapper {
     margin-top: -150vh;
   }
@@ -632,5 +640,14 @@ button:hover {
     text-align: left;
     width: 90vw;
     margin-left: 5vw;
+  }
+
+  .indicatoren1 {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: black;
+    padding: 0.5em;
+    margin-top: 5vh;
   }
 }
