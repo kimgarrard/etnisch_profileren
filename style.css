@@ -276,6 +276,7 @@ main {
 .wrapper {
   position: relative;
   background-color: black;
+  background: transparent;
   height: 100vh;
   width: 100vw;
   perspective: 8px;
@@ -329,12 +330,13 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   transform: scaleX(-1) scaleY(-1);
+  background-image: -webkit-linear-gradient(97deg, #191919 52%, rgba(0, 0, 0, 0) 0%);
   display: block;
   position: absolute;
   top: 30vw;
   left: 0;
   right: 0;
-  height: 35vh;
+  height: 45vh;
   z-index: 2;
 
   margin-top: 40vh;
@@ -422,7 +424,7 @@ button:hover {
 /* INTRO */
 
 .intro {
-  padding-top: 15vh;
+  padding-top: -5vh;
   width: 200vw;
   display: flex;
 }
@@ -506,12 +508,17 @@ button:hover {
 
 .graph1 {
   /* background-color: #191919; */
-  background-image: -webkit-linear-gradient(97deg, #191919 85%, rgba(0, 0, 0, 0) 0%);
+  background-image: -webkit-linear-gradient(97deg, #191919 90%, rgba(0, 0, 0, 0) 0%);
   height: auto;
+  padding-top: 0;
+}
+
+.graph1 > h2 {
+  padding-top: 8vh;
 }
 
 .graph1 img {
-  width: 100%;
+  width: 100vw;
   margin-top: 5vh;
   background-color: #191919;
   padding: 0em 1em 5em;
@@ -521,7 +528,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   width: 100vw;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 .description1 {
@@ -594,6 +601,10 @@ button:hover {
   margin-top: 10vh;
 }
 
+.graph3 section {
+  padding-top: 8vh;
+}
+
 .indicatoren3 {
   text-align: left;
   background-color: rgba(0,0,0,0.3);
@@ -608,6 +619,11 @@ button:hover {
 
 
 @media(min-width: 20em) and (max-width: 47em) {
+
+  button {
+    padding: 0.8em;
+    margin: 0.5em;
+  }
 
   .titlewrapper {
     margin-top: -150vh;
@@ -630,14 +646,33 @@ button:hover {
     bottom: -10vh;
   }
 
+  .parallax__cover {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
 
   .research {
     padding-top: 0vh;
-    margin-top: -10vh;
+  }
+
+  .research p {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
   }
 
   .intro img {
     width: 85vw;
+  }
+
+  .graph1 section {
+    margin-top: 10vh;
+  }
+
+  section h2 {
+    font-size: 1.4em;
   }
 
   section {
@@ -660,6 +695,16 @@ button:hover {
     margin-top: 5vh;
   }
 
+  .indicatoren p {
+    color: rgba(255,255,255,0.8);
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  .graph2 {
+    height: auto;
+  }
+
   .graph2 section {
     height: auto;
   }
@@ -676,5 +721,9 @@ button:hover {
     background-color: black;
     padding: 0.5em;
     margin-top: 5vh;
+  }
+
+  .graph3 section {
+    margin-top: 0vh;
   }
 }
