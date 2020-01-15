@@ -717,7 +717,6 @@ button:hover {
   .indicatoren2 {
     text-align: left;
     width: 90vw;
-    margin-left: 5vw;
     background-color: black;
     padding: 0.5em;
     margin-top: 5vh;
@@ -725,5 +724,10 @@ button:hover {
 
   .graph3 section {
     margin-top: 0vh;
+  }
+
+  .graph3 h2 {
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
