@@ -508,7 +508,7 @@ button:hover {
 
 .graph1 {
   /* background-color: #191919; */
-  background-image: -webkit-linear-gradient(97deg, #191919 90%, rgba(0, 0, 0, 0) 0%);
+  background-image: -webkit-linear-gradient(97deg, #191919 88%, rgba(0, 0, 0, 0) 0%);
   height: auto;
   padding-top: 0;
 }
@@ -519,7 +519,7 @@ button:hover {
 
 .graph1 img {
   width: 100vw;
-  margin-top: 5vh;
+  margin-top: 10vh;
   background-color: #191919;
   padding: 0em 1em 5em;
 }
