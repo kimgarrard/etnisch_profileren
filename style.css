@@ -416,6 +416,7 @@ button {
 button:hover {
   background-color: #FFF7AE;
   background-color: grey;
+  cursor: pointer;
 }
 
 
@@ -562,11 +563,12 @@ button:hover {
   display: flex;
   justify-content: space-around;
   width: 100vw;
-  margin-top: 10vh;
+  height: auto;
 }
 
 .graph2 img {
-  width: 40vw;
+  width: 50vw;
+  margin-bottom: 10vh;
 }
 
 .indicatoren2 {
@@ -578,6 +580,13 @@ button:hover {
 
 .indicator2 {
   margin-top: 0.5em;
+}
+
+.buttongraph2 {
+  position: absolute;
+  margin-top: 30.3vh;
+  margin-left: 36vw;
+  width: 13vw;
 }
 
 
