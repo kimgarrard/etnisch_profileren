@@ -564,11 +564,14 @@ button:hover {
   justify-content: space-around;
   width: 100vw;
   height: auto;
+  text-align: left;
+  margin-top: 3vh;
 }
 
 .graph2 img {
   width: 50vw;
   margin-bottom: 10vh;
+  margin-top: 2vh;
 }
 
 .indicatoren2 {
@@ -582,10 +585,17 @@ button:hover {
   margin-top: 0.5em;
 }
 
-.buttongraph2 {
+.buttongraph2a {
   position: absolute;
-  margin-top: 30.3vh;
-  margin-left: 36vw;
+  margin-top: 32vh;
+  margin-left: 35vw;
+  width: 13vw;
+}
+
+.buttongraph2b {
+  position: absolute;
+  margin-top: 32vh;
+  margin-left: 35vw;
   width: 13vw;
 }
 
@@ -739,4 +749,11 @@ button:hover {
     padding-left: 5vw;
     padding-right: 5vw;
   }
+}
+
+
+
+
+.invisible {
+  display: none;
 }
