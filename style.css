@@ -374,6 +374,12 @@ h2 {
   letter-spacing: 3px;
 }
 
+h3 {
+  font-family: "RubikBold";
+  color: white;
+  letter-spacing: 3px;
+}
+
 article p {
   color: white;
   font-family: "RobotoRegular";
@@ -468,7 +474,7 @@ button:hover {
   left: 102vw;
   margin: 0;
   margin-top: -12vh;
-  width: 10vw;
+  width: 8vw;
 }
 
 .vwiddtext h2 {
@@ -496,7 +502,8 @@ button:hover {
 }
 
 .leeftijden {
-  width: 80vw !important;
+  width: 90vw !important;
+  margin-top: 2vh !important;
 }
 
 
