@@ -298,28 +298,28 @@ main {
 }
 
 .parallax__layer__1 img {
-  bottom: 0;
+  top: 0;
   z-index: -1;
   transform-origin: 0;
   transform: translateZ(-9.5px) scale(2.2);
 }
 
 .parallax__layer__2 img {
-  bottom: 0;
+  top: 0;
   z-index: 2;
   transform-origin: 0;
   transform: translateZ(-7px) scale(1.88);
 }
 
 .parallax__layer__3 img {
-  bottom: 1em;
+  top: 1em;
   z-index: 2;
   transform-origin: 0;
   transform: translateZ(-4.5px) scale(1.57);
 }
 
 .parallax__layer__4 img {
-  bottom: 0;
+  top: 0;
   z-index: 3;
   transform-origin: 0;
   transform: translateZ(-2px) scale(1.25);
@@ -330,7 +330,7 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   transform: scaleX(-1) scaleY(-1);
-  background-image: -webkit-linear-gradient(97deg, #191919 52%, rgba(0, 0, 0, 0) 0%);
+  background-image: -webkit-linear-gradient(97deg, #191919 60%, rgba(0, 0, 0, 0) 0%);
   display: block;
   position: absolute;
   top: 30vw;
