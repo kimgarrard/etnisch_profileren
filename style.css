@@ -506,7 +506,7 @@ button:hover {
 
 .graph1 {
   /* background-color: #191919; */
-  background-image: -webkit-linear-gradient(97deg, #191919 88%, rgba(0, 0, 0, 0) 0%);
+  background-image: -webkit-linear-gradient(97deg, #191919 86%, rgba(0, 0, 0, 0) 0%);
   height: auto;
   padding-top: 0;
 }
@@ -526,7 +526,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   width: 100vw;
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
 .description1 {
