@@ -26,10 +26,7 @@
 
 body {
   background-color: black;
-  /* background-image: url("images/BG.png");
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-  position: fixed; */
+  background-color: white;
 }
 
 .overflowx {
@@ -453,7 +450,7 @@ button:hover {
 .vwidd {
   width: 100vw;
   height: 150vh;
-  background-color: white;
+  /* background-color: white; */
   overflow: scroll !important;
   margin-top: -5vw;
   padding-top: 15vh;
@@ -465,24 +462,26 @@ button:hover {
 }
 
 .buttonback {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   position: absolute;
   left: 102vw;
   margin: 0;
   margin-top: -12vh;
+  width: 10vw;
 }
 
 .vwiddtext h2 {
   margin-top: -10vh;
-  color: #0048FF;
+  color: white;
 }
 
 .vwiddtext p {
-  color: black;
+  color: white;
 }
 
 .donutmap {
+  margin-top: 10vh;
   display: flex;
   justify-content: space-around;
 }
@@ -631,6 +630,22 @@ button:hover {
   background-color: rgba(0,0,0,0.3);
   padding: 1em;
   height: auto;
+}
+
+
+
+.huisjes1 {
+  position: absolute;
+  /* bottom: 0; */
+  width: 25vw;
+}
+
+
+.huisjes2 {
+  position: absolute;
+  /* bottom: 0; */
+  width: 25vw;
+  right: 0;
 }
 
 
