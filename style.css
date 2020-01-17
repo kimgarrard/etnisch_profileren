@@ -397,8 +397,6 @@ article {
   background-color: #FFF33D;
   width: 4em;
   height: 2px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0.4em;
 }
 
@@ -594,9 +592,13 @@ button:hover {
 
 .buttongraph2b {
   position: absolute;
-  margin-top: 32vh;
+  margin-top: 45vh;
   margin-left: 35vw;
   width: 13vw;
+}
+
+.ingedrukt {
+  background-color: grey;
 }
 
 
@@ -756,4 +758,8 @@ button:hover {
 
 .invisible {
   display: none;
+}
+
+.invisible2 {
+  opacity: 0;
 }
