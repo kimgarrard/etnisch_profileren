@@ -46,6 +46,7 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: -10;
+  margin-top: 0;
 }
 
 
@@ -663,6 +664,10 @@ button:hover {
 
 @media(min-width: 20em) and (max-width: 47em) {
 
+  .BG {
+    top: 0;
+  }
+
   button {
     padding: 0.8em;
     margin: 0.5em;
@@ -686,6 +691,7 @@ button:hover {
   }
 
   .parallax__layer img {
+    top: 0;
     bottom: -10vh;
   }
 
