@@ -47,6 +47,7 @@ body {
   height: 100vh;
   z-index: -10;
   margin-top: 0;
+  background-color: black;
 }
 
 
@@ -651,20 +652,18 @@ button:hover {
   height: auto;
 }
 
-.visiblemobile {
+.visiblemobile, .visibletablet {
   display: none;
 }
 
 .huisjes1 {
   position: absolute;
-  /* bottom: 0; */
   width: 25vw;
 }
 
 
 .huisjes2 {
   position: absolute;
-  /* bottom: 0; */
   width: 25vw;
   right: 0;
 }
@@ -690,12 +689,12 @@ button:hover {
     margin: 0.5em;
   }
 
-  .wrapper {
+  .wrapper, .visibletablet {
     display: none;
   }
 
   .amsterdammobile {
-    width: 100vw;
+    width: 100.5vw;
     z-index: -2;
     margin-bottom: 2vh;
   }
@@ -712,17 +711,6 @@ button:hover {
   .glitch {
     font-size: 2.5em;
   }
-
-  .yellowcircle {
-    margin-top: 10vw;
-    width: 28em;
-  }
-
-  .parallax__cover {
-    background-color: transparent !important;
-    background-image: none !important;
-  }
-
 
   .research {
     padding-top: 0vh;
@@ -773,10 +761,187 @@ button:hover {
 
   .graph2 {
     height: auto;
+    margin-bottom: -10vh;
   }
 
   .graph2 section {
     height: auto;
+  }
+
+  .graph2img {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+
+  .buttongraph2a, .buttongraph2b {
+    width: auto;
+    font-size: 0.85em;
+    width: 40vw;
+    margin: 0.5em;
+    position: relative;
+    margin-top: 3vh;
+  }
+
+  .graph2 img {
+    width: 90vw;
+    margin-bottom: 5vh;
+    margin-left: 0;
+  }
+
+  .indicatoren2 {
+    text-align: left;
+    width: 90vw;
+    background-color: black;
+    padding: 0.5em;
+    margin-top: 5vh;
+  }
+
+  .graph3 section {
+    margin-top: 0vh;
+  }
+
+  .graph3 h2 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .indicatoren3 {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: black;
+    padding: 0.5em;
+    margin-top: 5vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .visibletablet {
+    display: block !important;
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .BG {
+    top: 0;
+  }
+
+  .visibletablet {
+    display: block !important;
+  }
+
+  button {
+    padding: 0.8em;
+    margin: 0.5em;
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .amsterdamtablet {
+    width: 100.5vw;
+    z-index: -2;
+    margin-bottom: 2vh;
+  }
+
+  .titlediv {
+    position: absolute;
+    top: 0;
+  }
+
+  .title {
+    margin-left: 7vw;
+  }
+
+  .glitch:after {
+    left: -2px;
+  }
+
+
+  .research {
+    padding-top: 0vh;
+  }
+
+  .research p {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+
+  .intro {
+    height: 70vh !important;
+  }
+
+  .intro img {
+    width: 50vw;
+  }
+
+  .graph1 section {
+    margin-top: 10vh;
+  }
+
+  section h2 {
+    font-size: 1.4em;
+  }
+
+  section {
+    display: block !important;
+    align-items: center;
+  }
+
+  .description1 {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .indicatoren1 {
+    text-align: left;
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: black;
+    padding: 0.5em;
+    margin-top: 5vh;
+  }
+
+  .indicatoren p {
+    font-size: 0.9em;
+  }
+
+  .graph2 {
+    height: auto;
+  }
+
+  .graph2img {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .graph2 section {
+    height: auto;
+  }
+
+  .buttongraph2a, .buttongraph2b {
+    width: auto;
   }
 
   .graph2 img {
@@ -800,6 +965,7 @@ button:hover {
     padding-left: 5vw;
     padding-right: 5vw;
   }
+
 }
 
 
