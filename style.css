@@ -680,11 +680,18 @@ button:hover {
   }
 
   .wrapper {
-    perspective: 8px;
+    display: none;
   }
 
-  .titlewrapper {
-    margin-top: -150vh;
+  .amsterdammobile {
+    width: 100vw;
+    z-index: -2;
+    margin-bottom: 2vh;
+  }
+
+  .titlediv {
+    position: absolute;
+    top: 0;
   }
 
   .title {
@@ -698,11 +705,6 @@ button:hover {
   .yellowcircle {
     margin-top: 10vw;
     width: 28em;
-  }
-
-  .parallax__layer img {
-    top: 0;
-    bottom: -10vh;
   }
 
   .parallax__cover {
