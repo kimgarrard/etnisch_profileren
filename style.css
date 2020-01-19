@@ -421,6 +421,11 @@ button:hover {
   cursor: pointer;
 }
 
+.indicatoren p {
+  color: rgba(255,255,255,0.8);
+  font-style: italic;
+}
+
 
 
 
@@ -646,7 +651,9 @@ button:hover {
   height: auto;
 }
 
-
+.visiblemobile {
+  display: none;
+}
 
 .huisjes1 {
   position: absolute;
@@ -672,6 +679,10 @@ button:hover {
 
   .BG {
     top: 0;
+  }
+
+  .visiblemobile {
+    display: block !important;
   }
 
   button {
@@ -725,7 +736,7 @@ button:hover {
   }
 
   .intro img {
-    width: 85vw;
+    width: 80vw;
   }
 
   .graph1 section {
@@ -757,8 +768,6 @@ button:hover {
   }
 
   .indicatoren p {
-    color: rgba(255,255,255,0.8);
-    font-style: italic;
     font-size: 0.9em;
   }
 
