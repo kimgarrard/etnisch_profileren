@@ -680,6 +680,10 @@ button:hover {
     top: 0;
   }
 
+  body {
+    background-color: black;
+  }
+
   .visiblemobile {
     display: block !important;
   }
@@ -830,6 +834,10 @@ button:hover {
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    background-color: black;
+  }
 
   .visibletablet {
     display: block !important;
