@@ -65,8 +65,8 @@ buttongraph2a.onclick = function() {
   graph2pa.classList.remove("invisible");
   graph2pb.classList.add("invisible");
 
-  buttongraph2a.classList.add("ingedrukt");
-  buttongraph2b.classList.remove("ingedrukt");
+  buttongraph2a.classList.remove("nietingedrukt");
+  buttongraph2b.classList.add("nietingedrukt");
 }
 
 buttongraph2b.onclick = function() {
@@ -76,8 +76,8 @@ buttongraph2b.onclick = function() {
   graph2pb.classList.remove("invisible");
   graph2pa.classList.add("invisible");
 
-  buttongraph2b.classList.add("ingedrukt");
-  buttongraph2a.classList.remove("ingedrukt");
+  buttongraph2b.classList.remove("nietingedrukt");
+  buttongraph2a.classList.add("nietingedrukt");
 }
 
 // buttongraph2b.onclick = function() {

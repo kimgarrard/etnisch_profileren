@@ -277,7 +277,7 @@ main {
   background: transparent;
   height: 100vh;
   width: 100vw;
-  perspective: 8px;
+  perspective: 8.5px;
   perspective-origin: 0%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -604,9 +604,15 @@ button:hover {
   width: 13vw;
 }
 
-.ingedrukt {
+.nietingedrukt {
   background-color: grey;
 }
+
+.buttongraph2b:hover, .buttongraph2a:hover {
+  background-color: #D8D287;
+}
+
+
 
 
 
@@ -671,6 +677,10 @@ button:hover {
   button {
     padding: 0.8em;
     margin: 0.5em;
+  }
+
+  .wrapper {
+    perspective: 8px;
   }
 
   .titlewrapper {
