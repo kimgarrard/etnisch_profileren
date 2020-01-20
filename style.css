@@ -279,10 +279,6 @@ p {
   color: blue;
 }
 
-.wolken {
-  margin-top: 8em;
-}
-
 /* layout */
 .wrapper {
   position: relative;
@@ -1070,9 +1066,14 @@ button:hover {
 
 
 
+.testtest {
+  width: 100vw !important;
+  height: auto !important;
+}
 
-
-
+.testa {
+  background-color: transparent !important;
+}
 
 .testgraph {
   overflow-x: auto;
@@ -1087,7 +1088,8 @@ button:hover {
 }
 
 .testa {
+  left: 0;
   position: absolute;
-  z-index: 5;
+  z-index: 1;
   margin-top: 0 !important;
 }
