@@ -1055,3 +1055,27 @@ button:hover {
 .invisible2 {
   opacity: 0;
 }
+
+
+
+
+
+
+
+.testgraph {
+  overflow-x: auto;
+  padding-top: 5vh;
+}
+
+.testgraph img {
+  height: 80vh;
+  width: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.testa {
+  position: absolute;
+  z-index: 5;
+  margin-top: 0 !important;
+}
