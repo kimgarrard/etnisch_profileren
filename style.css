@@ -24,19 +24,9 @@
     src: url("fonts/Rubik-Bold.ttf") format("truetype");
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 body {
   background-color: black;
   background-color: white;
-}
-
-.overflowx {
-  body, html {
-    overflow-x: hidden;
-  }
 }
 
 .overflowx {
@@ -275,9 +265,6 @@ main {
 }
 
 
-p {
-  color: blue;
-}
 
 /* layout */
 .wrapper {
@@ -858,6 +845,10 @@ button:hover {
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  .graph1img {
+    display: none;
+  }
 
   body {
     background-color: black;

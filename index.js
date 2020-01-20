@@ -79,14 +79,3 @@ buttongraph2b.onclick = function() {
   buttongraph2b.classList.remove("nietingedrukt");
   buttongraph2a.classList.add("nietingedrukt");
 }
-
-// buttongraph2b.onclick = function() {
-//   graph2imgb.classList.add("invisible");
-//   graph2imga.classList.remove("invisible");
-//
-//   buttongraph2b.classList.add("invisible");
-//   buttongraph2a.classList.remove("invisible");
-//
-//   graph2pb.classList.add("invisible");
-//   graph2pa.classList.remove("invisible");
-// }
