@@ -693,7 +693,7 @@ button:hover {
   }
 
   .invisiblemobile {
-    display: none;
+    display: none !important;
   }
 
   .visiblemobile {
@@ -741,6 +741,10 @@ button:hover {
 
   .intro img {
     width: 80vw;
+  }
+
+  .vwidd img {
+    width: 100vw;
   }
 
   .graph1 section {
@@ -828,6 +832,7 @@ button:hover {
 
   .buttonback {
     width: 30vw;
+    margin-left: 3vw;
   }
 
   .vwiddtext {
@@ -1106,7 +1111,13 @@ button:hover {
   margin-top: 0 !important;
 }
 
+.vwiddtext {
+  width: 90vw;
+  margin-left: 5vw;
+  text-align: left;
+}
 
 .vwiddmobilediv {
   overflow-y: auto;
+  height: 195vh;
 }
