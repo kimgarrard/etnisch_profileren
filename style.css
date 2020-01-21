@@ -692,6 +692,10 @@ button:hover {
     background-color: black;
   }
 
+  .invisiblemobile {
+    display: none;
+  }
+
   .visiblemobile {
     display: block !important;
   }
@@ -1064,7 +1068,7 @@ button:hover {
 
 
 .invisible {
-  display: none;
+  display: none !important;
 }
 
 .invisible2 {
@@ -1074,20 +1078,18 @@ button:hover {
 
 
 .testtest {
-  width: 100vw !important;
+  width: 85vw !important;
   height: auto !important;
   position: absolute;
   left: 0;
   z-index: 4;
-}
-
-.testa {
-  background-color: transparent !important;
+  margin-top: -1vh;
 }
 
 .testgraph {
   overflow-x: auto;
   padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .testgraph img {
