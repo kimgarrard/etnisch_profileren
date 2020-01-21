@@ -1047,6 +1047,22 @@ button:hover {
 
 
 
+
+
+
+@media (min-width: 1680px) {
+
+  .parallax__layer img {
+    position: absolute;
+    left: 0;
+    width: 1680px;
+  }
+
+}
+
+
+
+
 .invisible {
   display: none;
 }
@@ -1086,4 +1102,9 @@ button:hover {
   position: absolute;
   z-index: 1;
   margin-top: 0 !important;
+}
+
+
+.vwiddmobilediv {
+  overflow-y: auto;
 }
